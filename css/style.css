@@ -14,11 +14,49 @@ Version:
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
-    height: 100vh;
+.container{
+    margin: 50px 140px 0;
 }
 
 /* ===============-start=============== */
+
+.banner{
+    background-image: url('../img/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.b-title{
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 25px
+}
+.Party-title{
+    color: #fff;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding-bottom: 290px;
+}
+/* ===============-end=============== */
+
+/* ===============-start=============== */
+.offer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* ===============-end=============== */
+
+/* ===============-start=============== */
+.welcome{
+    background-image: url('../img/Vectorrr.png');
+}
 /* ===============-end=============== */
 
 /* ===============-start=============== */
@@ -40,10 +78,37 @@ body{
 /* ===============-end=============== */
 
 /* ===============-start=============== */
-/* ===============-end=============== */
-
-/* ===============-start=============== */
-/* ===============-end=============== */
-
-/* ===============-start=============== */
+footer{
+    background-color: #070211;
+}
+footer > div{
+    margin: 120px 140px 0;
+}
+.contrack{
+    display: flex;
+    justify-content: space-between;
+}
+.contrack-1, .contrack-2{
+    margin: 80px 0 60px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+}
+.s-media{
+    padding-left: 20px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
 /* ===============-end=============== */
