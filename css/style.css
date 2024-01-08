@@ -14,6 +14,10 @@ Version:
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    height: 100vh;
+    width: fit-content;
+}
 .container{
     margin: 50px 140px 0;
 }
@@ -28,9 +32,9 @@ p{
 /* ===============-start=============== */
 .back{
     margin-top: 0;
-    background-image: linear-gradient(180deg,hsl(0deg 0% 13%) 0%, hsl(344deg 0% 21%) 11%,hsl(344deg 0% 29%) 22%,hsl(344deg 0% 38%) 33%,hsl(344deg 0% 48%) 44%, hsl(344deg 0% 58%) 55%, hsl(344deg 0% 68%) 66%, hsl(344deg 0% 78%) 78%, hsl(344deg 0% 89%) 89%, hsl(0deg 0% 100%) 100%);
+    background-image: linear-gradient(185deg,hsl(0, 0%, 42%) 0%,hsl(344deg 0% 41%) 20%,hsl(0, 5%, 92%) 80%,hsl(0deg 0% 100%) 100%);
     height: 500px;
-    width: 1060px;
+    width: 1080px;
     margin-left: 50px;
     border-radius: 10px;
 }
@@ -43,13 +47,9 @@ p{
     height: auto;
     z-index: 1;
     margin-top: -460px;
+    margin-right: 50px;
 }
-.banner::after{
-    height: 600px;
-    width: 1140px;
-    color: #070211;
-    margin-top: 0;
-}
+
 .b-title{
     font-size: 32px;
     color: #fff;
@@ -109,7 +109,9 @@ p{
     background-size: cover;
     height: 600px;
     border-radius: 10px;
+    position: relative;
 }
+
 .welcome-title{
     padding-top: 126px;
     margin-left: 126px;
@@ -138,9 +140,9 @@ p{
     padding: 10px;
     background-color: #070211;
     border-radius: 10px;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
+
 /* ===============-end=============== */
 
 /* ===============-start=============== */
