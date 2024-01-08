@@ -17,6 +17,13 @@ Version:
 .container{
     margin: 50px 140px 0;
 }
+p{
+    color: rgba(7, 2, 17, .6);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Inter;
+    line-height: 32px;
+}
 
 /* ===============-start=============== */
 
@@ -33,7 +40,8 @@ Version:
     color: #fff;
     text-align: center;
     font-weight: 400;
-    margin-top: 25px
+    font-family: Merriweather;
+    padding-top: 50px;
 }
 .Party-title{
     color: #fff;
@@ -42,6 +50,7 @@ Version:
     font-weight: 900;
     line-height: 95px;
     padding-bottom: 290px;
+    font-family: Merriweather;
 }
 /* ===============-end=============== */
 
@@ -50,19 +59,145 @@ Version:
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-bottom: 48px;
+}
+.offer h2{
+    color: #f00;
+    font-size: 88px;
+    font-weight: 700;
+    font-family: Inter;
+}
+.offer p{
+    color: #f00;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Inter;
+}
+.offer h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Inter;
+    padding-bottom: 48px;
+}
+.offer img{
+    height: 500px;
+    width: 802px;
 }
 /* ===============-end=============== */
 
 /* ===============-start=============== */
 .welcome{
     background-image: url('../img/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    border-radius: 10px;
+}
+.welcome-title{
+    padding-top: 126px;
+    margin-left: 126px;
+}
+.welcome-title h4{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    font-family: Merriweather;
+}
+.welcome-title p{
+    color: rgba(255, 255, 255, .8);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: Inter;
+}
+.welcome-title .btn{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Inter;
+    text-transform: uppercase;
+    margin: 30px;
+    padding: 10px;
+    background-color: #070211;
+    border-radius: 10px;
+    cursor: pointer;
+    
 }
 /* ===============-end=============== */
 
 /* ===============-start=============== */
+.address{
+    background: linear-gradient(0deg, hsla(0, 0%, 100%, .3) 0%, hsla(302, 82%, 76%, .3) 100%);
+    height: 482px;
+    margin-top: 100px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.address p{
+    padding-top: 100px;
+    color: #070211;
+    /* font-family: Inter; */
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin-bottom: 48px;
+}
+.address p span{
+    color: #f00;
+}
+.address .btn{
+    border: none;
+    background-color: #f00;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+}
 /* ===============-end=============== */
 
 /* ===============-start=============== */
+.comming-soon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left h4{
+    color: #f00;
+     font-size: 24px;
+     font-weight: 500; 
+     font-family: Inter;  
+}
+.left h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Merriweather;
+    padding-top: 16px;
+    padding-bottom: 22px;
+}
+.middle img{
+    padding: 27px;
+    border: 13px solid #f00;
+    border-radius: 50%;
+
+}
+.right h3{
+    color: #f00;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Inter;
+}
+.right img{
+    margin-top: 43px;
+}
 /* ===============-end=============== */
 
 /* ===============-start=============== */
