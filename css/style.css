@@ -26,15 +26,30 @@ p{
 }
 
 /* ===============-start=============== */
-
+.back{
+    margin-top: 0;
+    background-image: linear-gradient(180deg,hsl(0deg 0% 13%) 0%, hsl(344deg 0% 21%) 11%,hsl(344deg 0% 29%) 22%,hsl(344deg 0% 38%) 33%,hsl(344deg 0% 48%) 44%, hsl(344deg 0% 58%) 55%, hsl(344deg 0% 68%) 66%, hsl(344deg 0% 78%) 78%, hsl(344deg 0% 89%) 89%, hsl(0deg 0% 100%) 100%);
+    height: 500px;
+    width: 1060px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
 .banner{
     background-image: url('../img/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 16px;
+    height: auto;
+    z-index: 1;
+    margin-top: -460px;
 }
-
+.banner::after{
+    height: 600px;
+    width: 1140px;
+    color: #070211;
+    margin-top: 0;
+}
 .b-title{
     font-size: 32px;
     color: #fff;
@@ -201,12 +216,132 @@ p{
 /* ===============-end=============== */
 
 /* ===============-start=============== */
+.dis{
+    margin-top: 100px;
+   justify-content: center;
+   text-align: center;
+}
+.holiday{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.holiday h6{
+    color: #070211;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+}
+.holiday h2{
+    font-size: 72px;
+    font-weight: 900;
+    font-family: Merriweather;
+}
+.holiday span{
+    color: #f00;
+}
+
+
+.discount div{
+    display: flex;
+    align-items: center;
+    right: 0;
+}
+.img-1{
+    margin-bottom: -350px;
+    z-index: 1;
+    height: auto;
+    width: 550px;
+}
+.img-2{
+    margin-right: -150px;
+    z-index: 1;
+}
+.img-4{
+    width: 1140px;
+}
 /* ===============-end=============== */
 
 /* ===============-start=============== */
+.por-title{
+    margin-top: 100px;
+}
+.Party-title h4{
+    color: #f00;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Inter;
+}
+.por-title span{
+    color: #f00;
+}
+.por-title h3{
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.por-title p{
+    margin-top: 22px;
+    margin-bottom: 48px;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 100px;
+}
+.items img{
+    height: 400px;
+    width: 350px;
+}
 /* ===============-end=============== */
 
 /* ===============-start=============== */
+.subscribe{
+    text-align: center;
+    background-color: #fff2f2;
+    border-radius: 10px;
+}
+.subscribe img{
+    padding: 80px 0 40px;
+}
+.subscribe h3{
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 900;
+}
+.subscribe p{
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+.inp-1{
+    border-radius: 50px 0 0 50px;
+    padding: 25px 150px 25px 30px;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    color: rgba(7, 2, 17, .3);
+    border: none;
+    outline: none;
+}
+.inp-2{
+    border-radius: 0 50px 50px 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    background-color: #f00;
+    margin-left: -10px;
+    margin-bottom: 80px;
+    padding: 23px 56px 25px;
+    border: none;
+    outline: none;
+}
 /* ===============-end=============== */
 
 /* ===============-start=============== */
@@ -225,10 +360,20 @@ footer > div{
 }
 .contrack-1, .contrack-2{
     margin: 80px 0 60px;
+    color: #fff;   
+}
+.contrack-2 div{
+    display: flex;
+}
+.contrack-1 p, .contrack-2 p{
     color: #fff;
+    font-size: 24px;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+}
+.contrack-2 img{
+    margin-right: 10px;
 }
 .media{
     display: flex;
@@ -242,8 +387,13 @@ footer > div{
 .copyright{
     display: flex;
     justify-content: space-between;
-    color: #fff;
     padding-top: 15px;
     padding-bottom: 20px;
+}
+.copyright p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Inter;
 }
 /* ===============-end=============== */
